@@ -21,7 +21,7 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-
+    <script src="./js/script.js" defer></script>
     <title>Omnifood</title>
   </head>
   <body>
@@ -38,6 +38,11 @@
           <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
         </ul>
       </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close"></ion-icon>
+      </button>
     </header>
 
     <main>
@@ -52,7 +57,7 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs.
             </p>
-            <a href="#" class="btn btn--full margin-right-sm"
+            <a href="#cta" class="btn btn--full margin-right-sm"
               >Start eating well</a
             >
             <a href="#" class="btn btn--outline">Learn more &darr;</a>
@@ -553,7 +558,7 @@
         </div>
       </section>
 
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
